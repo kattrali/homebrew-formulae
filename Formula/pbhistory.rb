@@ -7,6 +7,6 @@ class Pbhistory < Formula
   depends_on 'kylef/formulae/conche' => :build
 
   def install
-    system 'conche', 'install', "--prefix=#{prefix}"
+    system 'conche', 'install', "--prefix", prefix
   end
 end
