@@ -1,9 +1,9 @@
 class Thyme < Formula
 
   homepage 'https://github.com/kattrali/thyme'
-  head 'https://github.com/kattrali/thyme', :tag => '1.1.1'
-  url 'https://github.com/kattrali/thyme/archive/1.1.1.tar.gz'
-  sha256 'cb52655744c69d2502afda155a2dfb8f263530b8707ba6fe0b2b73c33f78f3a0'
+  head 'https://github.com/kattrali/thyme', :tag => '1.1.3'
+  url 'https://github.com/kattrali/thyme/archive/1.1.3.tar.gz'
+  sha256 'fcc992b99eda69dac51a2a390659e3b1c216ec27acff70a36be2192a16d4997a'
 
   depends_on 'rust' => :build
   depends_on 'ncurses'
